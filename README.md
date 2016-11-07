@@ -10,7 +10,6 @@ Leafer's Conference deployed on App Engine is created by [Marie Leaf](https://tw
 * [Concepts](#concepts)
 * [Design Challenges](#Design Challenges)
 * [Resources](#Resources)
-* [Xtra Tips](#Xtra Tips)
 
 
 ## APIs
@@ -62,7 +61,7 @@ __Work on indexes and queries__
 1 - Make sure the indexes support the type of queries required by the new Endpoints methods.  
 *Please see index.yaml file.*
 
-2. - Additional queries still need to be added to UI
+2 - Additional queries still need to be added to UI
 
 *2.1 - Query sessions held today: useful for seeing a daily agenda for a user.*  
 `getSessionsToday`  
@@ -87,10 +86,3 @@ When a new session is added to a conference, the speaker is checked. If there is
 [Doc - Endpoints API](https://cloud.google.com/appengine/docs/python/endpoints/create_api)
 
 [Youtube - App Engine: Cloud Endpoints](https://www.youtube.com/watch?v=uy0tP6_kWJ4)
-
-### Xtra Tips
-
-To test API locally (so you dont have to debug through google server):
-in terminal: `/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=test --unsafely-treat-insecure-origin-as-secure=http://localhost:8080`
-go to `http://localhost:8000/` - click on “default” to see web UI
-go to `localhost:8080/_ah/api/explorer` - to see api explorer
