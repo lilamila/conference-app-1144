@@ -34,8 +34,8 @@ Leafer's Conference deployed on App Engine is created by [Marie Leaf](https://tw
 
 **Marie Leaf**
 
-* [@mariesleaf]<https://twitter.com/mariesleaf>
-* [mleafer github]<https://github.com/mleafer>
+* [@mariesleaf](https://twitter.com/mariesleaf)
+* [mleafer github](https://github.com/mleafer)
 
 ### Concepts
 * Google Cloud Endpoints(write/call endpoint functions using JS client library, use APIs explorer for publicly available google apis)
