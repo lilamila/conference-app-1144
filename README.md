@@ -12,9 +12,6 @@ Leafer's Conference deployed on App Engine is created by [Marie Leaf](https://tw
 * [Resources](#Resources)
 
 
-## APIs
-- [Google Cloud Endpoints](https://developers.google.com/appengine/docs/python/endpoints/)
-
 ## Quick Start
 1. Set up on [App Engine](https://developers.google.com/appengine).
 2. Update the value of `application` in `app.yaml` to the app ID you

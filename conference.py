@@ -383,7 +383,6 @@ class ConferenceApi(remote.Service):
 
 # - - - Session objects - - - - - - - - - - - - - - - - - - - -
 
-    # Task 1
     def _copySessionToForm(self, sesh):
         """Copy relevant fields from Session to SessionForm."""
         sf = SessionForm()
@@ -494,7 +493,6 @@ class ConferenceApi(remote.Service):
 
 
 
-        # Task 4:
         # If number of sessions greater than one set featured speaker
         if count >= 2:
             # for spkr in data['speaker']:

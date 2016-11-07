@@ -454,7 +454,7 @@ conferenceApp.controllers.controller('ShowConferenceCtrl', function ($scope, $lo
                     } else {
                         // The request has succeeded.
                         $scope.submitted = false;
-                        $scope.messages = 'Query succeeded : ' + JSON.stringify(sendFilters);
+                        // $scope.messages = 'Query succeeded : ' + JSON.stringify(sendFilters);
                         $scope.alertStatus = 'success';
                         $log.info($scope.messages);
 
