@@ -2,7 +2,7 @@
 
 Leafer's Conference deployed on App Engine is created by [Marie Leaf](https://twitter.com/mariesleaf). Please see the [Design Challenges](#Design Challenges) to understand some of the challenges of implementation. All functions are testable via Google's APIs Explorer.
 
-[Here](conference-app-1144.appspot.com) is the app live!
+[Here](https://conference-app-1144.appspot.com/) is the app live!
 
 
 ### Table of contents
