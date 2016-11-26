@@ -509,7 +509,7 @@ cite {
 .text-primary {
     color: #64afaf;
 }
-a.text-primary:hover {
+a.text-primary:hover { ß
     color: #64afaf;
 }
 .text-success {
@@ -4070,7 +4070,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border-color: #006ddb;
+    border-color: #ffffff
+#ffffff;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,

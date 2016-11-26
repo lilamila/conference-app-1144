@@ -78,6 +78,19 @@
     <ng-view></ng-view>
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDPb4juUrMJWT13u1iInM5rTJEF3kvaLfA",
+    authDomain: "conference-app-1144.firebaseapp.com",
+    databaseURL: "https://conference-app-1144.firebaseio.com",
+    storageBucket: "conference-app-1144.appspot.com",
+    messagingSenderId: "629615067507"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
